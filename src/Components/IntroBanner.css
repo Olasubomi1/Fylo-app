@@ -1,0 +1,27 @@
+.main {
+  padding-top: 100px;
+  padding-bottom: 0px;
+  background-color: hsl(217, 28%, 15%);
+}
+
+.image {
+  width: 800px;
+}
+@media screen and (max-width: 900px) {
+  .image {
+    max-width: 550px;
+    height: auto;
+  }
+}
+@media screen and (max-width: 600px) {
+  .image {
+    max-width: 280px;
+    height: auto;
+  }
+}
+@media screen and (max-width: 300px) {
+  .image {
+    max-width: 200px;
+    height: auto;
+  }
+}

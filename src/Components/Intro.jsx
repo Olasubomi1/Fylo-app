@@ -3,12 +3,16 @@ import Fade from "react-reveal/Fade";
 import "./Intro.css";
 
 function Intro() {
+  function bgImage() {
+    let widthSize = window.innerWidth;
+    let size = widthSize < 500 ? `bg-curvy-mobile.svg` : `bg-curvy-desktop.svg`;
+    return size;
+  }
   return (
     <div className="main">
-      <img src="illustration-intro.png" alt="illustration intro" />
       <div className="parent">
         <object
-          data="bg-curvy-desktop.svg"
+          data={bgImage()}
           className="child bgCurvyImg"
           aria-label="intro"
           width="100%"
