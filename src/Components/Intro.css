@@ -38,6 +38,7 @@
 }
 @media screen and (max-width: 900px) {
   .bgCurvyImg {
+    display: none;
     position: relative;
     left: 0;
     bottom: 0;
@@ -48,14 +49,14 @@
   }
 
   .introContent {
-    position: absolute;
+    position: static;
     top: 10%;
     left: 20%;
     right: 20%;
     z-index: 2;
   }
   .parent {
-    position: relative;
+    position: static;
     margin-bottom: 0px;
     padding-bottom: 0px;
     min-height: 100px;
@@ -74,7 +75,7 @@
 }
 @media screen and (max-width: 600px) {
   .bgCurvyImg {
-    position: relative;
+    display: none;
     left: 0;
     bottom: 0;
     margin-bottom: 0px;
@@ -84,17 +85,14 @@
   }
 
   .introContent {
-    position: absolute;
     top: 10%;
     left: 20%;
     right: 20%;
-    z-index: 2;
   }
   .parent {
-    position: relative;
     margin-bottom: 0px;
     padding-bottom: 0px;
-    min-height: 100px;
+    min-height: 200px;
   }
   .introH {
     margin-bottom: 10px;
@@ -110,11 +108,11 @@
 }
 @media screen and (max-width: 300px) {
   .parent {
-    min-height: 100px;
+    min-height: 200px;
   }
 
   .bgCurvyImg {
-    position: relative;
+    display: none;
     left: 0;
     bottom: 0;
     margin-bottom: 0px;
@@ -124,14 +122,11 @@
   }
 
   .introContent {
-    position: absolute;
     top: 10%;
     left: 20%;
     right: 20%;
-    z-index: 2;
   }
   .parent {
-    position: relative;
     margin-bottom: 0px;
     padding-bottom: 0px;
     min-height: 100px;

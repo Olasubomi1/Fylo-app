@@ -5,7 +5,7 @@ import "./Intro.css";
 function Intro() {
   function bgImage() {
     let widthSize = window.innerWidth;
-    let size = widthSize < 500 ? `bg-curvy-mobile.svg` : `bg-curvy-desktop.svg`;
+    let size = widthSize > 500 ? `bg-curvy-desktop.svg` : `bg-curvy-mobile.svg`;
     return size;
   }
   return (

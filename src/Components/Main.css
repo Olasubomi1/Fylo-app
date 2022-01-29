@@ -14,5 +14,77 @@
   align-items: center;
   justify-content: inherit;
 }
-.card {
+.products {
+  display: flex;
+  flex-direction: row;
+  margin: 50px 50px;
+  justify-content: space-between;
+}
+.product-image {
+}
+.product-info {
+  margin-right: 60px;
+  margin-left: 50px;
+  margin-top: 100px;
+  text-align: justify;
+}
+.product-paragraph {
+  margin-top: 20px;
+}
+.product-anchor {
+  display: block;
+}
+.profile-cards {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+  align-items: center;
+  justify-content: space-around;
+}
+.profile-card {
+  width: 300px;
+  border-color: rgb(29, 28, 26);
+  border-radius: 8px;
+  box-shadow: 0 16px 60px rgba(0, 0, 0, 0.3);
+}
+.profile-paragraph {
+  padding: 30px;
+  text-align: left;
+}
+.profile-name {
+  text-align: justify;
+  text-decoration: dotted;
+}
+.profile-info {
+  display: flex;
+  flex-direction: row;
+  margin-left: 25px;
+  margin-bottom: 20px;
+}
+.profile-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+@media screen and (max-width: 900px) {
+  .cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .products {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 50px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
