@@ -1,6 +1,14 @@
 import React from "react";
 import "./Footer.css";
 
-export default function Footer() {
-  return <div></div>;
+function Footer() {
+  return (
+    <div className="footer">
+      <a className="footerImg">
+        <img src="logo.svg" />
+      </a>
+    </div>
+  );
 }
+
+export default Footer;

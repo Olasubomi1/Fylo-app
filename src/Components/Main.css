@@ -2,7 +2,8 @@
   background-color: hsl(218, 28%, 13%);
   margin-top: 0px;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 400px;
+  position: relative;
 }
 .cards {
   display: flex;
@@ -68,6 +69,37 @@
   height: 50px;
   border-radius: 50%;
   margin-right: 5px;
+}
+.getStarted {
+  background-color: hsl(217, 28%, 15%);
+  box-shadow: 0 16px 60px rgba(0, 0, 0, 0.3);
+  position: absolute;
+  width: 700px;
+  height: 300px;
+  padding: 30px;
+  left: 23%;
+  bottom: -7%;
+  border-radius: 10px;
+  z-index: 3;
+}
+.emailForm {
+  display: flex;
+  flex-direction: row;
+}
+.emailInput {
+  width: 100%;
+  height: 50px;
+  border-radius: 30px;
+  padding: 30px;
+  border: none;
+  margin-right: 5px;
+  user-select: none;
+}
+.emailButton {
+  background-color: cornflowerblue;
+  width: 130px;
+  border-radius: 30px;
+  border: none;
 }
 @media screen and (max-width: 900px) {
   .cards {

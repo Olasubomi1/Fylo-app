@@ -3,6 +3,7 @@ import NavBar from "./NavBar";
 import IntroBanner from "./IntroBanner";
 import Intro from "./Intro";
 import Main from "./Main";
+import Footer from "./Footer";
 import "./Home.css";
 
 function Home() {
@@ -12,6 +13,7 @@ function Home() {
       <IntroBanner />
       <Intro />
       <Main />
+      <Footer />
     </React.Fragment>
   );
 }

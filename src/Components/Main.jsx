@@ -79,6 +79,25 @@ function Main() {
           />
         </div>
       </div>
+      <div className="getStarted">
+        <h1>Get early access today</h1>
+        <p style={{ marginTop: "30px" }}>
+          It only takes a few minutes to sign up and our free starter tier is
+          extremely generous. if you have any questionsm, our support team would
+          be happy to help
+        </p>
+        <div className="emailForm">
+          <input
+            type="text"
+            className="emailInput"
+            placeholder="email@example.com"
+            required
+          />
+          <button type="submit" className="emailButton">
+            <a>Submit</a>
+          </button>
+        </div>
+      </div>
     </div>
   );
 }
