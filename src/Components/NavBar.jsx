@@ -17,7 +17,7 @@ function NavBar() {
         <a href="#">SignOut</a>
       </RightMenu>
       <CustomMenu onClick={() => setBurgerStatus(true)}>
-        <i class="fa fa-bars" aria-hidden="true"></i>
+        <i className="fa fa-bars" aria-hidden="true"></i>
       </CustomMenu>
       <BurgerNav show={burgerStatus}>
         <CloseWrapper>
