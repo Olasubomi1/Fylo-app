@@ -1,9 +1,51 @@
 .footer {
   padding-top: 250px;
   background-color: hsl(216, 53%, 9%);
-  padding-left: 100px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 100px;
 }
 .footerImg {
   display: flex;
   align-items: flex-start;
+}
+.footerContent {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+.location {
+  display: flex;
+  flex-direction: row;
+}
+.footerP {
+  max-width: 350px;
+  text-align: start;
+  padding-left: 20px;
+}
+.reachingOut {
+  display: flex;
+  flex-direction: row;
+}
+.gettingIntouch {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+}
+.mediaIcon {
+  padding-left: 10px;
+}
+.bottomStyle {
+  padding-bottom: 10px;
+  text-decoration: none;
+  color: aliceblue;
+  cursor: pointer;
+}
+.icons {
+  border: 1px solid white;
+  border-radius: 50%;
+  margin-left: 10px;
+  padding: 5px;
+  text-decoration: none;
 }

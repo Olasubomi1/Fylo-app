@@ -48,7 +48,7 @@
   width: 300px;
   border-color: rgb(29, 28, 26);
   border-radius: 8px;
-  box-shadow: 0 16px 60px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 60px 60px rgba(0, 0, 0, 0.3);
 }
 .profile-paragraph {
   padding: 30px;
@@ -96,7 +96,7 @@
   user-select: none;
 }
 .emailButton {
-  background-color: cornflowerblue;
+  background-color: hsl(198, 60%, 50%);
   width: 130px;
   border-radius: 30px;
   border: none;
